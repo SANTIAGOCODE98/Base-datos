@@ -1,0 +1,5 @@
+-- Crear la base de datos
+-- sudo mysql -u root -p para activar la base desde el usuario de root
+--  CREATE USER 'santiago'@'localhost' IDENTIFIED BY '123'; para crear un usuario, con DROP se realiza la eliminacion de usuario DROP 'santiago'@'localhost';
+-- GRANT ALL PRIVILEGES ON *.* TO 'santiago'@'localhost'; se da todos los privilegios, se recomiensa ver la doc para una produccion real
+-- FLUSH PRIVILAGES; activa los privilegios
